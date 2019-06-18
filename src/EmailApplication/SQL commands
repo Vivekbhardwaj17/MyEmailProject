@@ -1,0 +1,9 @@
+Commands for mySQL 
+create database myemailapplication;
+use myemailapplication;
+create table Details(
+firstName varchar(20),
+lastName varchar(20),
+email varchar(50),
+password varchar(8));
+insert into Detais values("vivek","kumar","vivekofficia2018@gmail.com","password");
