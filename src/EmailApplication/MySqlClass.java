@@ -10,7 +10,7 @@ public class MySqlClass {
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
         Class.forName("com.mysql.jdbc.Driver");
        Connection connect = DriverManager
-                .getConnection("jdbc:mysql://localhost:3306/emailapplication","root","28oct1999");
+                .getConnection("jdbc:mysql://localhost:3306/emailapplication","root","yourpassword");
        Statement statement = connect.createStatement();
        ResultSet resultSet = statement
                 .executeQuery("select * from Details");
